@@ -37,3 +37,35 @@ Gestão de Memória: Alocação dinâmica (malloc)
 Lógica: Recursividade e Ponteiros
 
 ----------------------------------------------------------------------------------------------------------
+
+Nível Aventureiro/Mestre 2.0
+
+# 🔍 Detective Quest - Nível Mestre
+
+Bem-vindo ao **Detective Quest**, a versão final do sistema de investigação da Enigma Studios. Este projeto consolida todos os conceitos de estruturas de dados avançadas para criar uma experiência de jogo de mistério completa.
+
+## 🎯 Objetivo do Nível Mestre
+O objetivo deste nível foi implementar um sistema completo de dedução lógica. O jogador explora uma mansão (Árvore Binária), coleta evidências (BST) e utiliza um sistema de indexação (Tabela Hash) para relacionar provas a suspeitos e realizar um julgamento final.
+
+## ⚙️ Funcionalidades Implementadas
+* **Navegação Inteligente:** Exploração da mansão via árvore binária com busca de pistas em tempo real.
+* **Sistema de Arquivamento (BST):** Todas as pistas encontradas são armazenadas em uma Árvore de Busca Binária, garantindo organização alfabética automática.
+* **Dossiê Criminal (Tabela Hash):** Associação eficiente de pistas a suspeitos através de uma tabela hash com tratamento de colisões por encadeamento.
+* **Sistema de Julgamento:** Lógica de verificação que valida a acusação do jogador baseada na quantidade de evidências (mínimo de duas pistas para condenação).
+
+## 🚀 Tecnologias Utilizadas
+* **Linguagem:** C
+* **Estruturas:** Árvores Binárias (Mapa e Pistas), Tabela Hash.
+* **Alocação:** Dinâmica (`malloc`/`free`).
+* **Lógica:** Recursividade e Algoritmos de Busca.
+
+## 🛠️ Como Executar
+1. Compile todos os arquivos (ou o arquivo único):
+   ```bash
+   gcc detective_quest.c -o detective_quest
+
+   Execute o jogo:
+
+   ./detective_quest
+
+   Desenvolvido por Lucas para o desafio técnico da Enigma Studios.
